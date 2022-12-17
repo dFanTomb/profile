@@ -1,0 +1,110 @@
+body {
+  background-color: #F8EDE3;
+  color: #85586F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #85586F;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Unbounded', cursive;
+  text-shadow: 1px 1px 2px #b88ca3;
+  margin: 10px 0px;
+}
+
+h2 {
+  color: #7e6340;
+  text-shadow: 1px 1px 1px #e4d2ba;
+  margin: 10px 0px;
+}
+
+p {
+  color: #C13584;
+  text-shadow: 1px 1px 1px #e99ec8;
+  margin: 10px 0px;
+}
+
+h3 {
+  color: #82C3EC;
+  text-shadow: 1px 1px 1px #afc9da;
+  margin: 10px 0px;
+}
+
+i {
+  font-size: 25px;
+  padding: 0px 10px;
+  text-shadow: 1px 1px 1px rgb(137, 137, 137);
+}
+
+.fa-facebook {
+  color: #2f55a4;
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+.fa-instagram {
+  color:  #C13584;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.card-white {
+  background-color: rgb(255, 253, 225);
+  box-shadow: 0px 0px 15px rgb(183, 183, 183);
+  text-align: center;
+  padding: 20px;
+  margin: 30px 0px;
+  border-radius: 6px;
+}
+
+.img-circle {
+  width: 125px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(125, 125, 125);
+}
+
+.list-inline  {
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.btn {
+  background-color: rgb(26, 183, 234);
+  color: #dcdcdc;
+  font-weight: bold;
+  padding: 9px 18px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px 1px rgb(119, 221, 255);
+  display: inline-block;
+  margin: 10px 0px;
+  }
+
+.btn:hover {
+  color: rgb(100, 80, 255);
+}
+
+.container  {
+  width: 700px;
+  margin: 0px auto;
+}
+
+#follow {
+  padding: 5px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
